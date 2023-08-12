@@ -50,6 +50,8 @@
 		49E653652A87E0E100FF9093 /* ElseAndOr.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ElseAndOr.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		49E653662A87E33500FF9093 /* Arrays.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Arrays.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		49E653672A87E6F300FF9093 /* Loop.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Loop.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		49E653682A87ECA000FF9093 /* 2-10 SwiftBasicsProjectStart.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "2-10 SwiftBasicsProjectStart.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		49E653692A87EE3000FF9093 /* TuplesAndSets.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = TuplesAndSets.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,8 @@
 		499939662A85F9C100D2ACDD = {
 			isa = PBXGroup;
 			children = (
+				49E653692A87EE3000FF9093 /* TuplesAndSets.playground */,
+				49E653682A87ECA000FF9093 /* 2-10 SwiftBasicsProjectStart.playground */,
 				49E653672A87E6F300FF9093 /* Loop.playground */,
 				49E653662A87E33500FF9093 /* Arrays.playground */,
 				49E653652A87E0E100FF9093 /* ElseAndOr.playground */,
