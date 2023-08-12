@@ -45,6 +45,11 @@
 		4999398D2A85F9C300D2ACDD /* basic_swift_learningUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = basic_swift_learningUITests.swift; sourceTree = "<group>"; };
 		4999398F2A85F9C300D2ACDD /* basic_swift_learningUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = basic_swift_learningUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		4999399C2A85F9D200D2ACDD /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		49E653632A87DA0100FF9093 /* MathDoublesFloats.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MathDoublesFloats.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		49E653642A87DC5A00FF9093 /* BooleanAndIfStatement.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = BooleanAndIfStatement.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		49E653652A87E0E100FF9093 /* ElseAndOr.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ElseAndOr.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		49E653662A87E33500FF9093 /* Arrays.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Arrays.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		49E653672A87E6F300FF9093 /* Loop.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Loop.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +80,11 @@
 		499939662A85F9C100D2ACDD = {
 			isa = PBXGroup;
 			children = (
+				49E653672A87E6F300FF9093 /* Loop.playground */,
+				49E653662A87E33500FF9093 /* Arrays.playground */,
+				49E653652A87E0E100FF9093 /* ElseAndOr.playground */,
+				49E653642A87DC5A00FF9093 /* BooleanAndIfStatement.playground */,
+				49E653632A87DA0100FF9093 /* MathDoublesFloats.playground */,
 				4999399C2A85F9D200D2ACDD /* MyPlayground.playground */,
 				499939712A85F9C100D2ACDD /* basic-swift-learning */,
 				499939822A85F9C300D2ACDD /* basic-swift-learningTests */,
