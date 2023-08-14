@@ -45,6 +45,7 @@
 		4999398D2A85F9C300D2ACDD /* basic_swift_learningUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = basic_swift_learningUITests.swift; sourceTree = "<group>"; };
 		4999398F2A85F9C300D2ACDD /* basic_swift_learningUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = basic_swift_learningUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		4999399C2A85F9D200D2ACDD /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		49D5FEEC2A89B9E000944B16 /* Dictionaries.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Dictionaries.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		49E653632A87DA0100FF9093 /* MathDoublesFloats.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MathDoublesFloats.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		49E653642A87DC5A00FF9093 /* BooleanAndIfStatement.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = BooleanAndIfStatement.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		49E653652A87E0E100FF9093 /* ElseAndOr.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ElseAndOr.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -82,6 +83,7 @@
 		499939662A85F9C100D2ACDD = {
 			isa = PBXGroup;
 			children = (
+				49D5FEEC2A89B9E000944B16 /* Dictionaries.playground */,
 				49E653692A87EE3000FF9093 /* TuplesAndSets.playground */,
 				49E653682A87ECA000FF9093 /* 2-10 SwiftBasicsProjectStart.playground */,
 				49E653672A87E6F300FF9093 /* Loop.playground */,
