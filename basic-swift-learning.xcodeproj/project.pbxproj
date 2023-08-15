@@ -34,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		49138E4E2A8AFBF4008DC12D /* Functions.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Functions.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		4999396F2A85F9C100D2ACDD /* basic-swift-learning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "basic-swift-learning.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		499939722A85F9C100D2ACDD /* basic_swift_learningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = basic_swift_learningApp.swift; sourceTree = "<group>"; };
 		499939742A85F9C100D2ACDD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -83,6 +84,7 @@
 		499939662A85F9C100D2ACDD = {
 			isa = PBXGroup;
 			children = (
+				49138E4E2A8AFBF4008DC12D /* Functions.playground */,
 				49D5FEEC2A89B9E000944B16 /* Dictionaries.playground */,
 				49E653692A87EE3000FF9093 /* TuplesAndSets.playground */,
 				49E653682A87ECA000FF9093 /* 2-10 SwiftBasicsProjectStart.playground */,
