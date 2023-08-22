@@ -34,6 +34,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4907FBE62A9452DC003545F4 /* Optionals.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Optionals.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		4907FBE72A9452FE003545F4 /* Classes.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Classes.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		4907FBE82A94530B003545F4 /* Structs.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Structs.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		4907FBE92A945315003545F4 /* Enums.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Enums.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		4907FBEA2A945324003545F4 /* Switches.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Switches.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		49138E4E2A8AFBF4008DC12D /* Functions.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Functions.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		4999396F2A85F9C100D2ACDD /* basic-swift-learning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "basic-swift-learning.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		499939722A85F9C100D2ACDD /* basic_swift_learningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = basic_swift_learningApp.swift; sourceTree = "<group>"; };
@@ -84,6 +89,11 @@
 		499939662A85F9C100D2ACDD = {
 			isa = PBXGroup;
 			children = (
+				4907FBEA2A945324003545F4 /* Switches.playground */,
+				4907FBE92A945315003545F4 /* Enums.playground */,
+				4907FBE82A94530B003545F4 /* Structs.playground */,
+				4907FBE72A9452FE003545F4 /* Classes.playground */,
+				4907FBE62A9452DC003545F4 /* Optionals.playground */,
 				49138E4E2A8AFBF4008DC12D /* Functions.playground */,
 				49D5FEEC2A89B9E000944B16 /* Dictionaries.playground */,
 				49E653692A87EE3000FF9093 /* TuplesAndSets.playground */,
