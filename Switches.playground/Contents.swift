@@ -50,7 +50,7 @@ func getDirection(whichWay: Compass) -> Compass {
 }	
 
 enum FurColor {
-	case black, brown, white, gold, spotted, brindle, merle
+    case black, brown, white, gold, spotted, brindle, merle
 }
 
 struct Dog {
@@ -59,12 +59,12 @@ struct Dog {
 	var furColor: FurColor = .black
 
 	func bark() {
-		print("Woof!")
+        print("Woof!")
 	}
 
-	func describe() {
+    func describe() {
 		print("I'm \(name), I'm \(age) years old and I have \(furColor) fur.")
-	}
+    }
 
 	mutating func birthday() {
 		age += 1
