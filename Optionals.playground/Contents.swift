@@ -33,3 +33,16 @@ if let oldAge = Int("40") {
 
 // at this point ald age do not exist.
 print(oldAge)
+
+// make a function that take in a String? and if it's nil, print "IT'S NIL" else print whatever it is in the string.
+func printString(string: String?) {
+    if let string = string {
+        print(string)
+    } else {
+        print("IT'S NIL")
+    }
+}
+
+var greeting: String? = "Hello, World!"
+
+printString(string: greeting)
