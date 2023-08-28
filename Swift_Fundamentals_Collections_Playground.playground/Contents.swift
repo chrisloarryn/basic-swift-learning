@@ -99,3 +99,59 @@ print("\(vegetables) - with element at index 3 removed")
 for (index, vegetable) in vegetables.enumerated() {
 	print("Vegetable \(vegetable) for index \(index)")
 } 
+
+
+class Exercise {
+    //1. Implement a function that takes in array containing integer numbers and finds the sum of all elements in the array.
+    static func findSum(from array: [Int]) -> Int {
+        return array.reduce(0, { $0 + $1 })
+        // return array.reduce(0) { $0 + $1.count }
+    }
+    
+    //2. Implement a function that takes in array containing strings and returns the sorted array.
+    static func sort(array: [String]) -> [String] {
+        return array.sorted(by: { $0 < $1 })
+    }
+}
+
+let myIntegerArray = [1,2,3]
+let myIntegerArray2 = [4,5,6]
+let myStringArray = ["hello", "dinosaur"]
+
+let sumOfNumbers = Exercise.findSum(from: myIntegerArray)
+let sortedNumbers = Exercise.sort(array: myStringArray)
+
+
+class Exercise2 {
+    //1. Implement a function that takes two arrays containing numbers and returns a single array containing content of both arrays.
+    static func merge(array1: [Int], array2: [Int]) -> [Int] {
+        return array1 + array2
+    }
+    
+    //2. Implement a function that takes in array and returns the biggest element in the array.
+    static func findMaxElement(in array: [Int]) -> Int? {
+        return array.max()
+    }
+}
+
+let myMergedArrays = Exercise2.merge(array1: myIntegerArray, array2: myIntegerArray2)
+let myMaxNumber = Exercise2.findMaxElement(in: myIntegerArray2)
+
+
+class Exercise3 {
+    //1. Implement a function that takes in array and returns the smallest element in the array.
+    static func findMinElement(in array: [Int]) -> Int? {
+        return array.min()
+    }
+    
+    //2. Implement a function that finds whether an element exists in the array.
+    static func isElement(element: Int, presentIn array: [Int]) -> Bool {
+        if let found = array.firstIndex(where: { $0 == element }) {
+            return true
+        }
+        return false
+    }
+}
+
+let myMinimumNumber = Exercise2.findMaxElement(in: myIntegerArray2)
+let myNumberInArray = Exercise3.isElement(element: 5, presentIn: myIntegerArray2)

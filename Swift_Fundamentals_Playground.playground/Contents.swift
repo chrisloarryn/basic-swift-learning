@@ -215,8 +215,23 @@ for codeUnit in continent.utf8 {
     print("\(codeUnit)")
 }
 print("-------------")
-print("-------------")
-print("-------------")
-print("-------------")
-print("-------------")
-print("-------------")
+
+
+class Exercise {
+    //1. Implement a function that takes in array containing integer numbers and finds the sum of all elements in the array.
+    static func findSum(from array: [Int]) -> Int {
+        return array.reduce(0, { $0 + $1 })
+        // return array.reduce(0) { $0 + $1.count }
+    }
+    
+    //2. Implement a function that takes in array containing strings and returns the sorted array.
+    static func sort(array: [String]) -> [String] {
+        return array.sorted(by: { $0 < $1 })
+    }
+}
+
+let myIntegerArray = [1,2,3]
+let myStringArray = ["hello", "dinosaur"]
+
+let sumOfNumbers = Exercise.findSum(from: myIntegerArray)
+let sortedNumbers = Exercise.sort(array: myStringArray)
