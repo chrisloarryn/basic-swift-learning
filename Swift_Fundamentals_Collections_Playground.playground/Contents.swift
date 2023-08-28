@@ -82,7 +82,7 @@ print("\(thisIsTheFirstElement) - first element item")
 print("--------------------")
 print("--------------------")
 
-vegetables[0...5] = ["potato", "onion", "garlic", "tomato", "cucumber", "lettuce"]
+vegetables[0...3] = ["potato", "onion", "garlic", "carroto"]
 print("\(vegetables) - with first 6 elements replaced")
 
 print("--------------------")
@@ -96,6 +96,6 @@ vegetables.remove(at: 3)
 print("\(vegetables) - with element at index 3 removed")
 
 /// Iterating
-for vegetable in vegetables {
-	print("Vegetable \(vegetable)")
+for (index, vegetable) in vegetables.enumerated() {
+	print("Vegetable \(vegetable) for index \(index)")
 } 
