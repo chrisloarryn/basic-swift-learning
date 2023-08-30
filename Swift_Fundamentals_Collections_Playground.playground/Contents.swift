@@ -16,8 +16,8 @@ print("there are \(cities.count) cities in the array")
 print("there are \(districts.count) districts in the array")
 
 cities.append("London")
-cities.append("Paris")
 cities.append("New York")
+cities.append("Paris")
 
 print("\(cities)")
 
@@ -137,7 +137,6 @@ class Exercise2 {
 let myMergedArrays = Exercise2.merge(array1: myIntegerArray, array2: myIntegerArray2)
 let myMaxNumber = Exercise2.findMaxElement(in: myIntegerArray2)
 
-
 class Exercise3 {
     //1. Implement a function that takes in array and returns the smallest element in the array.
     static func findMinElement(in array: [Int]) -> Int? {
@@ -146,12 +145,15 @@ class Exercise3 {
     
     //2. Implement a function that finds whether an element exists in the array.
     static func isElement(element: Int, presentIn array: [Int]) -> Bool {
-        if let found = array.firstIndex(where: { $0 == element }) {
+        // if let found = array.firstIndex(where: { $0 == element }) { return true } else { return false }
+        if array.contains(element) {
             return true
         }
-        return false
+        return false  
     }
 }
 
 let myMinimumNumber = Exercise2.findMaxElement(in: myIntegerArray2)
 let myNumberInArray = Exercise3.isElement(element: 5, presentIn: myIntegerArray2)
+
+print("number 5 \(myNumberInArray ? "" : "do not") exists in the array")
