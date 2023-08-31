@@ -160,4 +160,40 @@ let orderedStringArray1 = Exercise.prepareSortedSetContent(from: createdSet)
 let removeDoubleFromSet = Exercise.remove(value: 1.5, from: Set<Double>([1.1,1.5]))
 
 
+class Exercise2 {
+    
+    // Implement a function that takes two parameters: one set containing positive integers and another set containing negative integers. The function should merge two sets (i.e. union) and return it a result.
+    static func createUnion(of positiveNumbersSet: Set<Int>, and negativeNumberSet: Set<Int>) -> Set<Int> {
+        return positiveNumbersSet.union(negativeNumberSet)
+    }
+    
+    // Implement a function that takes two parameters: city names A and city names B. The function should find out intersection of two sets and return it as a result.
+    static func findIntersection(of citiesA: Set<String>, and citiesB: Set<String>) -> Set<String> {
+        return citiesA.intersection(citiesB)
+    }
+    
+    // Implement a function that takes two parameters: employees and friends. The function should subtract two sets in order to remove content of friends set from the employees set. The function then returns the result.
+    static func findSubtraction(of employees: Set<String>, and friends: Set<String>) -> Set<String> {
+        return Set<String>()
+    }
+    
+    // Implement a function that takes two set A and B as parameters. Sets contain numbers. The function should calculate the symmetric difference between sets and return it as a result.
+    static func findSymmetricDifference(of setA: Set<Int>, and setB: Set<Int>) -> Set<Int> {
+        return Set<Int>()
+    }
+}
 
+let possitiveNumbersArray = [1,2,3]
+let negativeNumbersArray = [-1,-2,-3]
+let possitiveNumbers = Set<Int>(possitiveNumbersArray)
+let negativeNumbers = Set<Int>(negativeNumbersArray)
+// first
+let unionResult = Exercise2.createUnion(of: possitiveNumbers, and: negativeNumbers)
+
+let citiesAArray = ["peumo", "rancagua"]
+let citiesBArray = ["san vicente", "peumo", "rengo"]
+
+let citiesSetA = Set<String>(citiesAArray)
+let citiesSetB = Set<String>(citiesBArray)
+// second
+let intersectionResult = Exercise2.findIntersection(of: citiesSetA, and: citiesSetB)
