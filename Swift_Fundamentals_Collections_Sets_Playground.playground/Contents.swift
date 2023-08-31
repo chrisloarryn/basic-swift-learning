@@ -174,12 +174,12 @@ class Exercise2 {
     
     // Implement a function that takes two parameters: employees and friends. The function should subtract two sets in order to remove content of friends set from the employees set. The function then returns the result.
     static func findSubtraction(of employees: Set<String>, and friends: Set<String>) -> Set<String> {
-        return Set<String>()
+        return employees.subtracting(friends)
     }
     
     // Implement a function that takes two set A and B as parameters. Sets contain numbers. The function should calculate the symmetric difference between sets and return it as a result.
     static func findSymmetricDifference(of setA: Set<Int>, and setB: Set<Int>) -> Set<Int> {
-        return Set<Int>()
+        return setA.symmetricDifference(setB)
     }
 }
 
@@ -197,3 +197,85 @@ let citiesSetA = Set<String>(citiesAArray)
 let citiesSetB = Set<String>(citiesBArray)
 // second
 let intersectionResult = Exercise2.findIntersection(of: citiesSetA, and: citiesSetB)
+
+
+let employeeArray = ["Larry","Damian","Doroty"]
+let friendsArray = ["Larry","Damian","Doroty","Juan","Jean","John"]
+
+let employeeSet = Set<String>(employeeArray)
+let friendsSet = Set<String>(friendsArray)
+let subtractionExercise2 = Exercise2.findSubtraction(of: employeeSet, and: friendsSet)
+print("subtraction = \(subtraction)")
+
+
+let setAToArray = [1,2,8,5,6]
+let setBToArray = [1,2,8,5,6,7]
+
+let setAFromArray = Set<Int>(setAToArray)
+let setBFromArray = Set<Int>(setBToArray)
+let symmetricFound = Exercise2.findSymmetricDifference(of: setAFromArray, and: setBFromArray)
+
+print("symmetricFound = \(symmetricFound)")
+symmetricFound
+
+
+///
+///
+
+class Exercise3 {
+    // Implement a function that takes 2 set parameters: set A and set B. The function should check whether set A is a subset of set B and return the result as a boolean value.
+    static func checkIf(setA: Set<Int>, subSetOf setB: Set<Int>) -> Bool {
+        return setA.isSubset(of: setB)
+    }
+    
+    // Implement a function that takes 2 set parameters: set A and set B. The function should check whether set A is a superset of set B and returns the result as a boolean value.
+    static func checkIf(setA: Set<Int>, supersetOf setB: Set<Int>) -> Bool {
+        return setA.isSuperset(of: setB)
+    }
+    
+    // Implement a function that takes 2 set parameters: set A and set B. The function should return true if both sets are equal, false otherwise.
+    static func checkIf(setA: Set<String>, equalTo setB: Set<String>) -> Bool {
+        return setA == setB
+    }
+    
+    // Implement a function that takes 2 set parameters: set A and set B. The function should return true if there is no common elements between two sets (i.e. the sets are disjoint), false otherwise.
+    static func checkIf(setA: Set<String>, isDisjointWith setB: Set<String>) -> Bool {
+        return setA.isDisjoint(with: setB)
+    }
+    
+    // Implement a function that takes 2 set parameters: set A and set B. The function should return true if set A is a strict super set of set B, false otherwise.
+    static func checkIf(setA: Set<Int>, isStrictSupersetOf setB: Set<Int>) -> Bool {
+        return setA.isStrictSuperset(of: setB)
+    }
+    
+    // Implement a function that takes 2 set parameters: set A and set B. The function should return true if set A is a strict subset of set B, false otherwise.
+    static func checkIf(setA: Set<Int>, isStrictSubsetOf setB: Set<Int>) -> Bool {
+        return setA.isStrictSubset(of: setB)
+    }
+}
+
+let integerFirstArrayGroup = [2,5,8,9,4]
+let integerSecondArrayGroup = [4,5,6,10,2,8,9]
+let stringFirstArrayGroup = ["string one","string two","string three"]
+let stringSecondArrayGroup = ["string two","string three","string one", "string four"]
+
+let integerSetFirst = Set<Int>(integerFirstArrayGroup)
+let integerSetSecond = Set<Int>(integerSecondArrayGroup)
+let stringSetFirst = Set<String>(stringFirstArrayGroup)
+let stringSetSecond = Set<String>(stringSecondArrayGroup)
+
+let checkIfSubset = Exercise3.checkIf(setA: integerSetFirst, subSetOf: integerSetSecond)
+let checkIfSuperset = Exercise3.checkIf(setA: integerSetFirst, supersetOf: integerSetSecond)
+let checkIfSetsAreEqual = Exercise3.checkIf(setA: stringSetFirst, equalTo: stringSetSecond)
+let checkIfSetsAreDisjoint = Exercise3.checkIf(setA: stringSetFirst, isDisjointWith: stringSetSecond)
+let checkIfFirstSetIsSupersetOfSecond = Exercise3.checkIf(setA: integerSetFirst, isStrictSupersetOf: integerSetSecond)
+let checkIfFirstSetIsSubsetOfSecond = Exercise3.checkIf(setA: integerSetFirst, isStrictSubsetOf: integerSetSecond)
+
+print("checkIfSubset = \(checkIfSubset)") // one
+print("checkIfSuperset = \(checkIfSuperset)") // two
+print("checkIfSetsAreEqual = \(checkIfSetsAreEqual)") // three
+print("checkIfSetsAreDisjoint = \(checkIfSetsAreDisjoint)") // four
+print("checkIfFirstSetIsSupersetOfSecond = \(checkIfFirstSetIsSupersetOfSecond)") // five
+print("checkIfFirstSetIsSubsetOfSecond = \(checkIfFirstSetIsSubsetOfSecond)") // six
+
+
