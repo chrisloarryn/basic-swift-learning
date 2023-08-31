@@ -90,7 +90,7 @@ class Exercise {
     // that you will need to remove from the dictionary. The function should return the updated dictionary.
     static func remove(key: String, from dictionary: [String: Int]) -> [String: Int] {
         var dictionary = dictionary
-        dictionary[key] = nil
+        dictionary.removeValue(forKey: key)
         return dictionary
     }
 }
@@ -99,3 +99,36 @@ class Exercise {
 
 let arrayNamesRepeated = ["nomu","nomu","macaco","mono","macaco","mono"]
 let keyValuePair = Exercise.createDictionary(from: arrayNamesRepeated)
+
+var dictionaryToRemove: [String: Int] = [:]
+
+dictionaryToRemove["hello"] = 1
+dictionaryToRemove["world"] = 1
+dictionaryToRemove["peluca"] = 5
+
+dictionaryToRemove
+let dict = Exercise.remove(key: "peluca", from: dictionaryToRemove)
+dict
+
+
+class Exercise2 {
+    // Implement a function that takes a dictionary as a parameter.
+    // The dictionary keys are String and values are Int.
+    // The function should return an array containing all the keys of the dictionary.
+    // The returned array should be sorted.
+    static func getAllSortedKeys(of dictionary: [String: Int]) -> [String] {
+        return dictionary.keys.sorted()
+    }
+    
+    // Implement a function that takes a dictionary as a parameter.
+    // The dictionary keys are String and values are Int.
+    // The function should return an array containing all the values of the dictionary.
+    // The returned array should be sorted.
+    static func getAllSortedValues(of dictionary: [String: Int]) -> [Int] {
+        return dictionary.values.sorted()
+    }
+}
+
+
+let arraySortedKeys = Exercise2.getAllSortedKeys(of: dictionaryToRemove)
+let arraySortedValues = Exercise2.getAllSortedKeys(of: dictionaryToRemove)
