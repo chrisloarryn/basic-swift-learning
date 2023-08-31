@@ -8,7 +8,11 @@ import UIKit
 var temperatureInC = -10 // 15 // 20
 
 switch condition {
-    case
+case a:
+    // statement
+case b:
+    // statement
+default:
 }
 
 while (temperatureInC < 40) {
