@@ -42,6 +42,9 @@
 		490F18462A945A08008F0D06 /* IntermediateSwift.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = IntermediateSwift.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		490FF8452AA0E79900378F32 /* Swift_Fundamentals_Collections_Dictionaries_Playground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Swift_Fundamentals_Collections_Dictionaries_Playground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		490FF8462AA1423B00378F32 /* Swift_Fundamentals_Control_Flow_ForLoop_Playground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Swift_Fundamentals_Control_Flow_ForLoop_Playground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		490FF8472AA144DE00378F32 /* Swift_Fundamentals_Control_Flow_WhileLoop_Playground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Swift_Fundamentals_Control_Flow_WhileLoop_Playground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		490FF8482AA148B200378F32 /* Swift_Fundamentals_Control_Flow_if_else_Playground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Swift_Fundamentals_Control_Flow_if_else_Playground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		490FF8492AA14BC200378F32 /* Swift_Fundamentals_Control_Flow_Switch_Playground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Swift_Fundamentals_Control_Flow_Switch_Playground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		49138E4E2A8AFBF4008DC12D /* Functions.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Functions.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		492EA3112A9B136E0004D8FB /* Swift_Fundamentals_Playground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Swift_Fundamentals_Playground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		492EA3122A9C49F00004D8FB /* Swift_Fundamentals_Collections_Playground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Swift_Fundamentals_Collections_Playground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -95,6 +98,9 @@
 		499939662A85F9C100D2ACDD = {
 			isa = PBXGroup;
 			children = (
+				490FF8492AA14BC200378F32 /* Swift_Fundamentals_Control_Flow_Switch_Playground.playground */,
+				490FF8482AA148B200378F32 /* Swift_Fundamentals_Control_Flow_if_else_Playground.playground */,
+				490FF8472AA144DE00378F32 /* Swift_Fundamentals_Control_Flow_WhileLoop_Playground.playground */,
 				490FF8462AA1423B00378F32 /* Swift_Fundamentals_Control_Flow_ForLoop_Playground.playground */,
 				490FF8452AA0E79900378F32 /* Swift_Fundamentals_Collections_Dictionaries_Playground.playground */,
 				4992A11C2A9EEB83002C5295 /* Swift_Fundamentals_Collections_Sets_Playground.playground */,
