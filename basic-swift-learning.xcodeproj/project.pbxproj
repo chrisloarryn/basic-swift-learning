@@ -48,6 +48,7 @@
 		49138E4E2A8AFBF4008DC12D /* Functions.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Functions.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		492EA3112A9B136E0004D8FB /* Swift_Fundamentals_Playground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Swift_Fundamentals_Playground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		492EA3122A9C49F00004D8FB /* Swift_Fundamentals_Collections_Playground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Swift_Fundamentals_Collections_Playground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		4988BCAA2AA2383D00BB07AE /* Swift_Fundamentals_Functions_Playground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Swift_Fundamentals_Functions_Playground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		4992A11C2A9EEB83002C5295 /* Swift_Fundamentals_Collections_Sets_Playground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Swift_Fundamentals_Collections_Sets_Playground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		4999396F2A85F9C100D2ACDD /* basic-swift-learning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "basic-swift-learning.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		499939722A85F9C100D2ACDD /* basic_swift_learningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = basic_swift_learningApp.swift; sourceTree = "<group>"; };
@@ -98,6 +99,7 @@
 		499939662A85F9C100D2ACDD = {
 			isa = PBXGroup;
 			children = (
+				4988BCAA2AA2383D00BB07AE /* Swift_Fundamentals_Functions_Playground.playground */,
 				490FF8492AA14BC200378F32 /* Swift_Fundamentals_Control_Flow_Switch_Playground.playground */,
 				490FF8482AA148B200378F32 /* Swift_Fundamentals_Control_Flow_if_else_Playground.playground */,
 				490FF8472AA144DE00378F32 /* Swift_Fundamentals_Control_Flow_WhileLoop_Playground.playground */,

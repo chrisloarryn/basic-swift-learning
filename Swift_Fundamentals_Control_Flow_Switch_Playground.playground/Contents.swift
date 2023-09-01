@@ -99,3 +99,28 @@ case "B", "b":
 default:
     print("any other character \(characterB)")
 }
+
+
+class Exercise {
+    // Implement a function that takes in an integer as a parameter. The function implements the following logic using switch interval statements as learnt in the lecture:
+    // - if the integer is below 10, then the function returns 0,
+    // - if the integer is greater than or equal to 10 and less than 20, then the function returns 1,
+    // - if the integer is greater than or equal to 20 and less than 30, then the function returns 2,
+    // - in all other cases it returns 3.
+    static func implementSwitchWithRanges(testValue: Int) -> Int {
+        switch testValue {
+        case ..<10:
+            return 0
+        case 10..<20:
+            return 1
+        case 20..<30:
+            return 2
+        default:
+            return 3
+        }
+    }
+}
+
+let martinaAge = 13
+let responseOnSwitchWithRanges = Exercise.implementSwitchWithRanges(testValue: martinaAge)
+
