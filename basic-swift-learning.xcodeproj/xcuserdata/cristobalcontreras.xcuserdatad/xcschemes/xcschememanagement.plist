@@ -298,6 +298,27 @@
 			<key>orderHint</key>
 			<integer>10</integer>
 		</dict>
+		<key>Swift_Fundamentals_Classes_Structs_Playground (Playground) 1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>38</integer>
+		</dict>
+		<key>Swift_Fundamentals_Classes_Structs_Playground (Playground) 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>39</integer>
+		</dict>
+		<key>Swift_Fundamentals_Classes_Structs_Playground (Playground).xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>37</integer>
+		</dict>
 		<key>Swift_Fundamentals_Closures_Playground (Playground) 1.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -508,6 +529,27 @@
 			<key>orderHint</key>
 			<integer>25</integer>
 		</dict>
+		<key>Swift_Fundamentals_Inheritance_Playground (Playground) 1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>41</integer>
+		</dict>
+		<key>Swift_Fundamentals_Inheritance_Playground (Playground) 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>42</integer>
+		</dict>
+		<key>Swift_Fundamentals_Inheritance_Playground (Playground).xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>40</integer>
+		</dict>
 		<key>Swift_Fundamentals_Optionals_Playground (Playground) 1.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -549,6 +591,27 @@
 			<false/>
 			<key>orderHint</key>
 			<integer>6</integer>
+		</dict>
+		<key>Swift_Fundamentals_Protocols_Playground (Playground) 1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>44</integer>
+		</dict>
+		<key>Swift_Fundamentals_Protocols_Playground (Playground) 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>45</integer>
+		</dict>
+		<key>Swift_Fundamentals_Protocols_Playground (Playground).xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>43</integer>
 		</dict>
 		<key>Switches (Playground) 1.xcscheme</key>
 		<dict>
