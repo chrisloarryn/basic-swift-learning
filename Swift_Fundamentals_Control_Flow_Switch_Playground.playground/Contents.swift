@@ -43,7 +43,7 @@ default:
 
 // switch statement tuples
 // tuple: (Int, Int)
-let coordinate = (0, 0)
+let coordinate = (6, 4)
 switch coordinate {
 case (0,0):
     print("the coordinate origin point")
@@ -51,12 +51,51 @@ case (_, 0):
     print("the coordinate is on x axis")
 case (0, _):
     print("the coordinate is on y axis")
-case (_, _):
+default:
     print("the coordinate is no in x or y")
 }
 
 // value binding
+switch coordinate {
+case (0,0):
+    print("the coordinate origin point")
+case (let x, 0):
+    print("the coordinate is on x axis \(x)")
+case (0, let y):
+    print("the coordinate is on y axis \(y)")
+default:
+    print("the coordinate is no in x or y")
+}
 
 // where clause
+switch coordinate {
+case (let x, let y) where x > y:
+    print("x > y")
+case (let x, let y) where x < y:
+    print("x < y")
+default:
+    print("the coordinate is no in x or y")
+}
+
 
 // compound cases
+let characterB: Character = "a"
+switch characterB {
+case "a", "A":
+    print("letter a \(characterB)")
+case "B", "b":
+    print("letter b \(characterB)")
+default:
+    print("any other character \(characterB)")
+}
+
+// fallthrough
+switch characterB {
+case "a", "A", "c", "C":
+    print("character matched")
+    fallthrough
+case "B", "b":
+    print("letter \(characterB)")
+default:
+    print("any other character \(characterB)")
+}
